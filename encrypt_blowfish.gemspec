@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["ivangrx", "kotick"]
   spec.email         = ["ivangrx@gmail.com", "max.jvl@gmail.com"]
 
-  spec.summary       = "Ruby implementacion of the encryption Blowfish symmetric-key block cipher,"
-  spec.description   = "This gem has a Ruby implementacion of the encryption Blowfish symmetric-key block cipher,"
+  spec.summary       = "Ruby implementation of the encryption Blowfish symmetric-key block cipher,"
+  spec.description   = "This gem has a Ruby implementation of the encryption Blowfish symmetric-key block cipher,"
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
