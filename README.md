@@ -14,16 +14,16 @@ Create an object of the class setting the key of the algorithm and function of "
 You need to use a encryption key with length multiple of  8 and no longer than 56.
 
 ```ruby
-blow_fish = Blowfish.new("x"*56, true)
+blow_fish = EncryptBlowfish::Blowfish.new("x"*56, true)
 ```
 
 Use encrypt method with some kind of text
 ```ruby
-encrypted_text = bf.encrypt("Some text")
+encrypted_text = blow_fish.encrypt("Some text")
 ```
 And decrypt
 ```ruby
-decrypted_text = bf.decrypt(encrypted_text)
+decrypted_text = blow_fish.decrypt(encrypted_text)
 ```
 ## Installation
 
